@@ -34,7 +34,6 @@ export function UserIdentification() {
     setIsFilled(!!value);
     setName(value);
   }
-
   
   function handleSubmit(){
     navigation.navigate('Confirmation')
@@ -60,7 +59,7 @@ export function UserIdentification() {
               onBlur={handleInputBlur}  onFocus={handleInputFocus} onChangeText={handleInputChange}/>
 
               <View style={styles.footer}>
-                <Button title= "confirmar" onPress={handleSubmit}/>
+                <Button title="confirmar" onPress={handleSubmit}/>
                 
               </View>
 
